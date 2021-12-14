@@ -1,0 +1,10 @@
+micronaut:
+   application:
+      name: mntest1
+   router:
+      static-resources:
+         swagger:
+            paths: classpath:META-INF/swagger
+            mapping: /swagger/**  
+jackson:
+   property-naming-strategy: SNAKE_CASE
